@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "baseName": "gwdemo",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "3.1.0"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "vue",
+    "clientTestFrameworks": ["cypress"],
+    "clientTheme": "none",
+    "creationTimestamp": 1719590593086,
+    "cypressAudit": true,
+    "cypressCoverage": null,
+    "databaseType": "sql",
+    "devDatabaseType": null,
+    "devServerPort": 9060,
+    "enableHibernateCache": true,
+    "enableTranslation": true,
+    "entities": [],
+    "jhipsterVersion": "8.2.1",
+    "languages": ["es", "en"],
+    "microfrontend": null,
+    "microfrontends": [],
+    "monorepository": true,
+    "nativeLanguage": "es",
+    "packageName": "com.mycompany.myapp",
+    "prodDatabaseType": "mysql",
+    "serverPort": 8080,
+    "skipCommitHook": true,
+    "testFrameworks": ["cypress"],
+    "withAdminUi": true
+  }
+}
